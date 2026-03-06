@@ -1,4 +1,5 @@
 # variables
+
 message = "Hello World!"
 # print(message)
 
@@ -15,5 +16,7 @@ nar = "naresh barua"
 first_name = "naresh"
 last_name = "barua"
 full_name = f"{first_name} {last_name}"
-print(full_name)
+#print(full_name)
+# print(f"Hello, {full_name.title()}!") # f-string
+
 
