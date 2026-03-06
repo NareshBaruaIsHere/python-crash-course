@@ -7,6 +7,13 @@ message = "Hello Py crash course"
 
 #strings
 
-name = "naresh barua"
-print(name.title())
+nar = "naresh barua"
+#print(nar.title()) #title
+#print(nar.upper()) #uppercase
+#print(nar.lower()) #lowercase
+
+first_name = "naresh"
+last_name = "barua"
+full_name = f"{first_name} {last_name}"
+print(full_name)
 
