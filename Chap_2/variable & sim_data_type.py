@@ -1,6 +1,12 @@
 # variables
 message = "Hello World!"
-print(message)
+# print(message)
 
 message = "Hello Py crash course"
-print(message)
+# print(message)
+
+#strings
+
+name = "naresh barua"
+print(name.title())
+
