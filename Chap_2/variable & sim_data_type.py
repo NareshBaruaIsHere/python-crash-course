@@ -16,7 +16,11 @@ nar = "naresh barua"
 first_name = "naresh"
 last_name = "barua"
 full_name = f"{first_name} {last_name}"
-#print(full_name)
+# print(full_name)
 # print(f"Hello, {full_name.title()}!") # f-string
+# message = f"hello, {full_name.title()}!"
+# print(message)
 
-
+# print("Python")
+# print("\tPython\tpython\tpython")
+# print("Lang:\n\tPython\n\tC\n\tJava")
