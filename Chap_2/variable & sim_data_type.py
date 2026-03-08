@@ -24,3 +24,28 @@ full_name = f"{first_name} {last_name}"
 # print("Python")
 # print("\tPython\tpython\tpython")
 # print("Lang:\n\tPython\n\tC\n\tJava")
+
+# String examples
+
+# Concatenation
+greeting = "Hello" + " " + "World"
+print(greeting)
+
+# String methods
+text = "python programming"
+print(text.capitalize())
+print(text.replace("python", "Java"))
+print(text.find("programming"))
+print(len(text))
+
+# String slicing
+word = "Hello"
+print(word[0])
+print(word[1:4])
+print(word[-1])
+
+# String formatting
+age = 25
+name = "Alice"
+print(f"{name} is {age} years old")
+print("{} is {} years old".format(name, age))
