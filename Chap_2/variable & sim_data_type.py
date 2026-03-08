@@ -44,3 +44,8 @@ print(word[0])
 print(word[1:4])
 print(word[-1])
 
+# String formatting
+age = 25
+name = "Alice"
+print(f"{name} is {age} years old")
+print("{} is {} years old".format(name, age))
