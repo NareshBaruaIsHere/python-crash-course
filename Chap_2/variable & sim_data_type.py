@@ -38,3 +38,9 @@ print(text.replace("python", "Java"))
 print(text.find("programming"))
 print(len(text))
 
+# String slicing
+word = "Hello"
+print(word[0])
+print(word[1:4])
+print(word[-1])
+
