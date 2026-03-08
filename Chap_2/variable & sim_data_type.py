@@ -50,6 +50,8 @@ full_name = f"{first_name} {last_name}"
 # print(f"{name} is {age} years old")
 # print("{} is {} years old".format(name, age))
 
+# rstrip() lstrip()
+
 # txt = " hello "
 # x = txt.rstrip()
 # print(x)
@@ -58,3 +60,6 @@ full_name = f"{first_name} {last_name}"
 # x = txt.rstrip(",.qis")
 # print(x)
 
+# url = 'https://naresh_barua.com'
+# U = url.removeprefix('https://').removesuffix('.com')
+# print(U)
