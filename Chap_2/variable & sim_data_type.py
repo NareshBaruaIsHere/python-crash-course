@@ -28,24 +28,33 @@ full_name = f"{first_name} {last_name}"
 # String examples
 
 # Concatenation
-greeting = "Hello" + " " + "World"
-print(greeting)
+# greeting = "Hello" + " " + "World"
+# print(greeting)
 
 # String methods
-text = "python programming"
-print(text.capitalize())
-print(text.replace("python", "Java"))
-print(text.find("programming"))
-print(len(text))
+# text = "python programming"
+# print(text.capitalize())
+# print(text.replace("python", "Java"))
+# print(text.find("programming"))
+# print(len(text))
 
 # String slicing
-word = "Hello"
-print(word[0])
-print(word[1:4])
-print(word[-1])
+# word = "Hello"
+# print(word[0])
+# print(word[1:4])
+# print(word[-1])
 
 # String formatting
-age = 25
-name = "Alice"
-print(f"{name} is {age} years old")
-print("{} is {} years old".format(name, age))
+# age = 25
+# name = "Alice"
+# print(f"{name} is {age} years old")
+# print("{} is {} years old".format(name, age))
+
+# txt = " hello "
+# x = txt.rstrip()
+# print(x)
+
+# txt = "Hello,,,,,,,,,,ssiqq......"
+# x = txt.rstrip(",.qis")
+# print(x)
+
