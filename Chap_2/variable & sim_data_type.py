@@ -63,3 +63,40 @@ full_name = f"{first_name} {last_name}"
 # url = 'https://naresh_barua.com'
 # U = url.removeprefix('https://').removesuffix('.com')
 # print(U)
+
+# More variable examples
+
+# Integer variables
+age = 25
+year = 2024
+count = 0
+
+# Float variables
+price = 19.99
+temperature = 98.6
+pi = 3.14159
+
+# Boolean variables
+is_active = True
+is_valid = False
+has_error = True
+
+# Multiple assignment
+x, y, z = 10, 20, 30
+# print(x, y, z)
+
+# Swapping variables
+a = 5
+b = 10
+a, b = b, a
+# print(f"a = {a}, b = {b}")
+
+# Type checking
+# print(type(age))
+# print(type(price))
+# print(type(is_active))
+
+# Constants (by convention, use uppercase)
+MAX_ATTEMPTS = 3
+MIN_PASSWORD_LENGTH = 8
+PI_VALUE = 3.14159
