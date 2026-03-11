@@ -100,3 +100,32 @@ a, b = b, a
 MAX_ATTEMPTS = 3
 MIN_PASSWORD_LENGTH = 8
 PI_VALUE = 3.14159
+
+# Type conversion
+age_str = "25"
+age_int = int(age_str)
+price_str = "19.99"
+price_float = float(price_str)
+is_valid_str = "True"
+is_valid_bool = is_valid_str == "True"
+
+# Arithmetic operations
+num1 = 10
+num2 = 3
+print(f"Addition: {num1 + num2}")
+print(f"Subtraction: {num1 - num2}")
+print(f"Multiplication: {num1 * num2}")
+print(f"Division: {num1 / num2}")
+print(f"Floor Division: {num1 // num2}")
+print(f"Modulus: {num1 % num2}")
+print(f"Exponentiation: {num1 ** num2}")
+
+# Comparison operators
+print(f"10 > 3: {10 > 3}")
+print(f"10 == 3: {10 == 3}")
+print(f"10 != 3: {10 != 3}")
+
+# Logical operators
+print(f"True and False: {True and False}")
+print(f"True or False: {True or False}")
+print(f"not True: {not True}")
