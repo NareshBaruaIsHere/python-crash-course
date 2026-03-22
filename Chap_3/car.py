@@ -4,3 +4,5 @@ cars.sort(reverse=True)
 print(cars)
 
 print(sorted(cars))
+
+print(sorted(cars, reverse=True))
