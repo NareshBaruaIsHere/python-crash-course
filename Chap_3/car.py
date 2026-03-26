@@ -1,8 +1,9 @@
 cars = ['bmw', 'adui', 'toyota', 'subaru']
 # cars.sort()
 cars.sort(reverse=True)
-print(cars)
+# print(cars)
 
-print(sorted(cars))
+# print(sorted(cars))
 
-print(sorted(cars, reverse=True))
+# print(sorted(cars, reverse=True))
+
